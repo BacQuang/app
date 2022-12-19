@@ -1,5 +1,4 @@
 import streamlit as st
-from pandas_datareader.data import DataReader
 from pypfopt.discrete_allocation import DiscreteAllocation, get_latest_prices
 from pypfopt import EfficientFrontier
 from pypfopt import risk_models
